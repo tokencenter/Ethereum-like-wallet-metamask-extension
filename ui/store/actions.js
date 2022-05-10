@@ -1001,6 +1001,10 @@ export function removeSnap(snapId) {
 export async function removeSnapError(msgData) {
   return promisifiedBackground.removeSnapError(msgData);
 }
+
+export async function invokeSnap(snapId, request) {
+  return promisifiedBackground.invokeSnap(snapId, request);
+}
 ///: END:ONLY_INCLUDE_IN
 
 export function cancelMsg(msgData) {

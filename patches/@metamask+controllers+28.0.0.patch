@@ -1,0 +1,661 @@
+diff --git a/node_modules/@metamask/controllers/LICENSE b/node_modules/@metamask/controllers/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/README.md b/node_modules/@metamask/controllers/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/BaseController.d.ts b/node_modules/@metamask/controllers/dist/BaseController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/BaseController.js b/node_modules/@metamask/controllers/dist/BaseController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/BaseController.js.map b/node_modules/@metamask/controllers/dist/BaseController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/BaseControllerV2.d.ts b/node_modules/@metamask/controllers/dist/BaseControllerV2.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/BaseControllerV2.js b/node_modules/@metamask/controllers/dist/BaseControllerV2.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/BaseControllerV2.js.map b/node_modules/@metamask/controllers/dist/BaseControllerV2.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/ComposableController.d.ts b/node_modules/@metamask/controllers/dist/ComposableController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/ComposableController.js b/node_modules/@metamask/controllers/dist/ComposableController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/ComposableController.js.map b/node_modules/@metamask/controllers/dist/ComposableController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/ControllerMessenger.d.ts b/node_modules/@metamask/controllers/dist/ControllerMessenger.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/ControllerMessenger.js b/node_modules/@metamask/controllers/dist/ControllerMessenger.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/ControllerMessenger.js.map b/node_modules/@metamask/controllers/dist/ControllerMessenger.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/announcement/AnnouncementController.d.ts b/node_modules/@metamask/controllers/dist/announcement/AnnouncementController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/announcement/AnnouncementController.js b/node_modules/@metamask/controllers/dist/announcement/AnnouncementController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/announcement/AnnouncementController.js.map b/node_modules/@metamask/controllers/dist/announcement/AnnouncementController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/apis/crypto-compare.d.ts b/node_modules/@metamask/controllers/dist/apis/crypto-compare.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/apis/crypto-compare.js b/node_modules/@metamask/controllers/dist/apis/crypto-compare.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/apis/crypto-compare.js.map b/node_modules/@metamask/controllers/dist/apis/crypto-compare.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/apis/token-service.d.ts b/node_modules/@metamask/controllers/dist/apis/token-service.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/apis/token-service.js b/node_modules/@metamask/controllers/dist/apis/token-service.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/apis/token-service.js.map b/node_modules/@metamask/controllers/dist/apis/token-service.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/approval/ApprovalController.d.ts b/node_modules/@metamask/controllers/dist/approval/ApprovalController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/approval/ApprovalController.js b/node_modules/@metamask/controllers/dist/approval/ApprovalController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/approval/ApprovalController.js.map b/node_modules/@metamask/controllers/dist/approval/ApprovalController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/AccountTrackerController.d.ts b/node_modules/@metamask/controllers/dist/assets/AccountTrackerController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/AccountTrackerController.js b/node_modules/@metamask/controllers/dist/assets/AccountTrackerController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/AccountTrackerController.js.map b/node_modules/@metamask/controllers/dist/assets/AccountTrackerController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/AssetsContractController.d.ts b/node_modules/@metamask/controllers/dist/assets/AssetsContractController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/AssetsContractController.js b/node_modules/@metamask/controllers/dist/assets/AssetsContractController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/AssetsContractController.js.map b/node_modules/@metamask/controllers/dist/assets/AssetsContractController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/CollectibleDetectionController.d.ts b/node_modules/@metamask/controllers/dist/assets/CollectibleDetectionController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/CollectibleDetectionController.js b/node_modules/@metamask/controllers/dist/assets/CollectibleDetectionController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/CollectibleDetectionController.js.map b/node_modules/@metamask/controllers/dist/assets/CollectibleDetectionController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/CollectiblesController.d.ts b/node_modules/@metamask/controllers/dist/assets/CollectiblesController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/CollectiblesController.js b/node_modules/@metamask/controllers/dist/assets/CollectiblesController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/CollectiblesController.js.map b/node_modules/@metamask/controllers/dist/assets/CollectiblesController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/CurrencyRateController.d.ts b/node_modules/@metamask/controllers/dist/assets/CurrencyRateController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/CurrencyRateController.js b/node_modules/@metamask/controllers/dist/assets/CurrencyRateController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/CurrencyRateController.js.map b/node_modules/@metamask/controllers/dist/assets/CurrencyRateController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC1155/ERC1155Standard.d.ts b/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC1155/ERC1155Standard.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC1155/ERC1155Standard.js b/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC1155/ERC1155Standard.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC1155/ERC1155Standard.js.map b/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC1155/ERC1155Standard.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC721/ERC721Standard.d.ts b/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC721/ERC721Standard.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC721/ERC721Standard.js b/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC721/ERC721Standard.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC721/ERC721Standard.js.map b/node_modules/@metamask/controllers/dist/assets/Standards/CollectibleStandards/ERC721/ERC721Standard.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/ERC20Standard.d.ts b/node_modules/@metamask/controllers/dist/assets/Standards/ERC20Standard.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/ERC20Standard.js b/node_modules/@metamask/controllers/dist/assets/Standards/ERC20Standard.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/ERC20Standard.js.map b/node_modules/@metamask/controllers/dist/assets/Standards/ERC20Standard.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/standards-types.d.ts b/node_modules/@metamask/controllers/dist/assets/Standards/standards-types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/standards-types.js b/node_modules/@metamask/controllers/dist/assets/Standards/standards-types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/Standards/standards-types.js.map b/node_modules/@metamask/controllers/dist/assets/Standards/standards-types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenBalancesController.d.ts b/node_modules/@metamask/controllers/dist/assets/TokenBalancesController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenBalancesController.js b/node_modules/@metamask/controllers/dist/assets/TokenBalancesController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenBalancesController.js.map b/node_modules/@metamask/controllers/dist/assets/TokenBalancesController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenDetectionController.d.ts b/node_modules/@metamask/controllers/dist/assets/TokenDetectionController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenDetectionController.js b/node_modules/@metamask/controllers/dist/assets/TokenDetectionController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenDetectionController.js.map b/node_modules/@metamask/controllers/dist/assets/TokenDetectionController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenListController.d.ts b/node_modules/@metamask/controllers/dist/assets/TokenListController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenListController.js b/node_modules/@metamask/controllers/dist/assets/TokenListController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenListController.js.map b/node_modules/@metamask/controllers/dist/assets/TokenListController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenRatesController.d.ts b/node_modules/@metamask/controllers/dist/assets/TokenRatesController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenRatesController.js b/node_modules/@metamask/controllers/dist/assets/TokenRatesController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokenRatesController.js.map b/node_modules/@metamask/controllers/dist/assets/TokenRatesController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokensController.d.ts b/node_modules/@metamask/controllers/dist/assets/TokensController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokensController.js b/node_modules/@metamask/controllers/dist/assets/TokensController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/TokensController.js.map b/node_modules/@metamask/controllers/dist/assets/TokensController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/assetsUtil.d.ts b/node_modules/@metamask/controllers/dist/assets/assetsUtil.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/assetsUtil.js b/node_modules/@metamask/controllers/dist/assets/assetsUtil.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/assets/assetsUtil.js.map b/node_modules/@metamask/controllers/dist/assets/assetsUtil.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/constants.d.ts b/node_modules/@metamask/controllers/dist/constants.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/constants.js b/node_modules/@metamask/controllers/dist/constants.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/constants.js.map b/node_modules/@metamask/controllers/dist/constants.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/GasFeeController.d.ts b/node_modules/@metamask/controllers/dist/gas/GasFeeController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/GasFeeController.js b/node_modules/@metamask/controllers/dist/gas/GasFeeController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/GasFeeController.js.map b/node_modules/@metamask/controllers/dist/gas/GasFeeController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/determineGasFeeCalculations.d.ts b/node_modules/@metamask/controllers/dist/gas/determineGasFeeCalculations.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/determineGasFeeCalculations.js b/node_modules/@metamask/controllers/dist/gas/determineGasFeeCalculations.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/determineGasFeeCalculations.js.map b/node_modules/@metamask/controllers/dist/gas/determineGasFeeCalculations.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchBlockFeeHistory.d.ts b/node_modules/@metamask/controllers/dist/gas/fetchBlockFeeHistory.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchBlockFeeHistory.js b/node_modules/@metamask/controllers/dist/gas/fetchBlockFeeHistory.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchBlockFeeHistory.js.map b/node_modules/@metamask/controllers/dist/gas/fetchBlockFeeHistory.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory.d.ts b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory.js b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory.js.map b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/calculateGasFeeEstimatesForPriorityLevels.d.ts b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/calculateGasFeeEstimatesForPriorityLevels.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/calculateGasFeeEstimatesForPriorityLevels.js b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/calculateGasFeeEstimatesForPriorityLevels.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/calculateGasFeeEstimatesForPriorityLevels.js.map b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/calculateGasFeeEstimatesForPriorityLevels.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/fetchLatestBlock.d.ts b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/fetchLatestBlock.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/fetchLatestBlock.js b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/fetchLatestBlock.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/fetchLatestBlock.js.map b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/fetchLatestBlock.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/medianOf.d.ts b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/medianOf.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/medianOf.js b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/medianOf.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/medianOf.js.map b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/medianOf.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/types.d.ts b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/types.js b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/types.js.map b/node_modules/@metamask/controllers/dist/gas/fetchGasEstimatesViaEthFeeHistory/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/gas-util.d.ts b/node_modules/@metamask/controllers/dist/gas/gas-util.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/gas-util.js b/node_modules/@metamask/controllers/dist/gas/gas-util.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/gas/gas-util.js.map b/node_modules/@metamask/controllers/dist/gas/gas-util.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/index.d.ts b/node_modules/@metamask/controllers/dist/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/index.js b/node_modules/@metamask/controllers/dist/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/index.js.map b/node_modules/@metamask/controllers/dist/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/keyring/KeyringController.d.ts b/node_modules/@metamask/controllers/dist/keyring/KeyringController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/keyring/KeyringController.js b/node_modules/@metamask/controllers/dist/keyring/KeyringController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/keyring/KeyringController.js.map b/node_modules/@metamask/controllers/dist/keyring/KeyringController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/AbstractMessageManager.d.ts b/node_modules/@metamask/controllers/dist/message-manager/AbstractMessageManager.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/AbstractMessageManager.js b/node_modules/@metamask/controllers/dist/message-manager/AbstractMessageManager.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/AbstractMessageManager.js.map b/node_modules/@metamask/controllers/dist/message-manager/AbstractMessageManager.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/MessageManager.d.ts b/node_modules/@metamask/controllers/dist/message-manager/MessageManager.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/MessageManager.js b/node_modules/@metamask/controllers/dist/message-manager/MessageManager.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/MessageManager.js.map b/node_modules/@metamask/controllers/dist/message-manager/MessageManager.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/PersonalMessageManager.d.ts b/node_modules/@metamask/controllers/dist/message-manager/PersonalMessageManager.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/PersonalMessageManager.js b/node_modules/@metamask/controllers/dist/message-manager/PersonalMessageManager.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/PersonalMessageManager.js.map b/node_modules/@metamask/controllers/dist/message-manager/PersonalMessageManager.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/TypedMessageManager.d.ts b/node_modules/@metamask/controllers/dist/message-manager/TypedMessageManager.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/TypedMessageManager.js b/node_modules/@metamask/controllers/dist/message-manager/TypedMessageManager.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/message-manager/TypedMessageManager.js.map b/node_modules/@metamask/controllers/dist/message-manager/TypedMessageManager.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/network/NetworkController.d.ts b/node_modules/@metamask/controllers/dist/network/NetworkController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/network/NetworkController.js b/node_modules/@metamask/controllers/dist/network/NetworkController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/network/NetworkController.js.map b/node_modules/@metamask/controllers/dist/network/NetworkController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/Caveat.d.ts b/node_modules/@metamask/controllers/dist/permissions/Caveat.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/Caveat.js b/node_modules/@metamask/controllers/dist/permissions/Caveat.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/Caveat.js.map b/node_modules/@metamask/controllers/dist/permissions/Caveat.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/Permission.d.ts b/node_modules/@metamask/controllers/dist/permissions/Permission.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/Permission.js b/node_modules/@metamask/controllers/dist/permissions/Permission.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/Permission.js.map b/node_modules/@metamask/controllers/dist/permissions/Permission.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/PermissionController.d.ts b/node_modules/@metamask/controllers/dist/permissions/PermissionController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/PermissionController.js b/node_modules/@metamask/controllers/dist/permissions/PermissionController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/PermissionController.js.map b/node_modules/@metamask/controllers/dist/permissions/PermissionController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/endowments/index.d.ts b/node_modules/@metamask/controllers/dist/permissions/endowments/index.d.ts
+old mode 100644
+new mode 100755
+index b026de1..b28888b
+--- a/node_modules/@metamask/controllers/dist/permissions/endowments/index.d.ts
++++ b/node_modules/@metamask/controllers/dist/permissions/endowments/index.d.ts
+@@ -8,4 +8,13 @@ export declare const endowmentPermissionBuilders: {
+             allowedCaveats: null;
+         }>;
+     }>;
++    readonly "endowment:tx-insight": Readonly<{
++        readonly targetKey: "endowment:tx-insight";
++        readonly specificationBuilder: import("..").PermissionSpecificationBuilder<import("..").PermissionType.Endowment, any, {
++            permissionType: import("..").PermissionType.Endowment;
++            targetKey: "endowment:tx-insight";
++            endowmentGetter: (_options?: any) => undefined;
++            allowedCaveats: null;
++        }>;
++    }>;
+ };
+diff --git a/node_modules/@metamask/controllers/dist/permissions/endowments/index.js b/node_modules/@metamask/controllers/dist/permissions/endowments/index.js
+old mode 100644
+new mode 100755
+index f475d6d..4460bdc
+--- a/node_modules/@metamask/controllers/dist/permissions/endowments/index.js
++++ b/node_modules/@metamask/controllers/dist/permissions/endowments/index.js
+@@ -2,7 +2,9 @@
+ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.endowmentPermissionBuilders = void 0;
+ const network_access_1 = require("./network-access");
++const tx_insight_1 = require("./tx-insight");
+ exports.endowmentPermissionBuilders = {
+     [network_access_1.networkAccessEndowmentBuilder.targetKey]: network_access_1.networkAccessEndowmentBuilder,
++    [tx_insight_1.txInsightEndowmentBuilder.targetKey]: tx_insight_1.txInsightEndowmentBuilder,
+ };
+ //# sourceMappingURL=index.js.map
+\ No newline at end of file
+diff --git a/node_modules/@metamask/controllers/dist/permissions/endowments/index.js.map b/node_modules/@metamask/controllers/dist/permissions/endowments/index.js.map
+old mode 100644
+new mode 100755
+index 5dbe23d..bf8bf29
+--- a/node_modules/@metamask/controllers/dist/permissions/endowments/index.js.map
++++ b/node_modules/@metamask/controllers/dist/permissions/endowments/index.js.map
+@@ -1 +1 @@
+-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/permissions/endowments/index.ts"],"names":[],"mappings":";;;AAAA,qDAAiE;AAEpD,QAAA,2BAA2B,GAAG;IACzC,CAAC,8CAA6B,CAAC,SAAS,CAAC,EAAE,8CAA6B;CAChE,CAAC","sourcesContent":["import { networkAccessEndowmentBuilder } from './network-access';\n\nexport const endowmentPermissionBuilders = {\n  [networkAccessEndowmentBuilder.targetKey]: networkAccessEndowmentBuilder,\n} as const;\n"]}
+\ No newline at end of file
++{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/permissions/endowments/index.ts"],"names":[],"mappings":";;;AAAA,qDAAiE;AACjE,6CAAyD;AAE5C,QAAA,2BAA2B,GAAG;IACzC,CAAC,8CAA6B,CAAC,SAAS,CAAC,EAAE,8CAA6B;IACxE,CAAC,sCAAyB,CAAC,SAAS,CAAC,EAAE,sCAAyB;CACxD,CAAC","sourcesContent":["import { networkAccessEndowmentBuilder } from './network-access';\nimport { txInsightEndowmentBuilder } from './tx-insight';\n\nexport const endowmentPermissionBuilders = {\n  [networkAccessEndowmentBuilder.targetKey]: networkAccessEndowmentBuilder,\n  [txInsightEndowmentBuilder.targetKey]: txInsightEndowmentBuilder,\n} as const;\n"]}
+\ No newline at end of file
+diff --git a/node_modules/@metamask/controllers/dist/permissions/endowments/network-access.d.ts b/node_modules/@metamask/controllers/dist/permissions/endowments/network-access.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/endowments/network-access.js b/node_modules/@metamask/controllers/dist/permissions/endowments/network-access.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/endowments/network-access.js.map b/node_modules/@metamask/controllers/dist/permissions/endowments/network-access.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/endowments/tx-insight.d.ts b/node_modules/@metamask/controllers/dist/permissions/endowments/tx-insight.d.ts
+new file mode 100755
+index 0000000..6d6b268
+--- /dev/null
++++ b/node_modules/@metamask/controllers/dist/permissions/endowments/tx-insight.d.ts
+@@ -0,0 +1,12 @@
++import { PermissionSpecificationBuilder, PermissionType } from '../Permission';
++declare const permissionName = "endowment:tx-insight";
++export declare const txInsightEndowmentBuilder: Readonly<{
++    readonly targetKey: "endowment:tx-insight";
++    readonly specificationBuilder: PermissionSpecificationBuilder<PermissionType.Endowment, any, {
++        permissionType: PermissionType.Endowment;
++        targetKey: typeof permissionName;
++        endowmentGetter: (_options?: any) => undefined;
++        allowedCaveats: null;
++    }>;
++}>;
++export {};
+diff --git a/node_modules/@metamask/controllers/dist/permissions/endowments/tx-insight.js b/node_modules/@metamask/controllers/dist/permissions/endowments/tx-insight.js
+new file mode 100755
+index 0000000..07b9d33
+--- /dev/null
++++ b/node_modules/@metamask/controllers/dist/permissions/endowments/tx-insight.js
+@@ -0,0 +1,25 @@
++"use strict";
++Object.defineProperty(exports, "__esModule", { value: true });
++exports.txInsightEndowmentBuilder = void 0;
++const Permission_1 = require("../Permission");
++const permissionName = 'endowment:tx-insight';
++/**
++ * `endowment:tx-insight` returns nothing; it is intended to be used as a flag
++ * by the extension to detect whether the snap has the capability to show information on the tx confirmation screen.
++ *
++ * @param _builderOptions - optional specification builder options.
++ * @returns The specification for the tx-insight endowment.
++ */
++const specificationBuilder = (_builderOptions) => {
++    return {
++        permissionType: Permission_1.PermissionType.Endowment,
++        targetKey: permissionName,
++        allowedCaveats: null,
++        endowmentGetter: (_getterOptions) => undefined,
++    };
++};
++exports.txInsightEndowmentBuilder = Object.freeze({
++    targetKey: permissionName,
++    specificationBuilder,
++});
++//# sourceMappingURL=tx-insight.js.map
+\ No newline at end of file
+diff --git a/node_modules/@metamask/controllers/dist/permissions/endowments/tx-insight.js.map b/node_modules/@metamask/controllers/dist/permissions/endowments/tx-insight.js.map
+new file mode 100755
+index 0000000..1b9fbef
+--- /dev/null
++++ b/node_modules/@metamask/controllers/dist/permissions/endowments/tx-insight.js.map
+@@ -0,0 +1 @@
++{"version":3,"file":"tx-insight.js","sourceRoot":"","sources":["../../../src/permissions/endowments/tx-insight.ts"],"names":[],"mappings":";;;AAAA,8CAKuB;AAEvB,MAAM,cAAc,GAAG,sBAAsB,CAAC;AAS9C;;;;;;GAMG;AACH,MAAM,oBAAoB,GAItB,CAAC,eAAqB,EAAE,EAAE;IAC5B,OAAO;QACL,cAAc,EAAE,2BAAc,CAAC,SAAS;QACxC,SAAS,EAAE,cAAc;QACzB,cAAc,EAAE,IAAI;QACpB,eAAe,EAAE,CAAC,cAAsC,EAAE,EAAE,CAAC,SAAS;KACvE,CAAC;AACJ,CAAC,CAAC;AAEW,QAAA,yBAAyB,GAAG,MAAM,CAAC,MAAM,CAAC;IACrD,SAAS,EAAE,cAAc;IACzB,oBAAoB;CACZ,CAAC,CAAC","sourcesContent":["import {\n  EndowmentGetterParams,\n  PermissionSpecificationBuilder,\n  PermissionType,\n  ValidPermissionSpecification,\n} from '../Permission';\n\nconst permissionName = 'endowment:tx-insight';\n\ntype LongRunningEndowmentSpecification = ValidPermissionSpecification<{\n  permissionType: PermissionType.Endowment;\n  targetKey: typeof permissionName;\n  endowmentGetter: (_options?: any) => undefined;\n  allowedCaveats: null;\n}>;\n\n/**\n * `endowment:tx-insight` returns nothing; it is intended to be used as a flag\n * by the extension to detect whether the snap has the capability to show information on the tx confirmation screen.\n *\n * @param _builderOptions - optional specification builder options.\n * @returns The specification for the tx-insight endowment.\n */\nconst specificationBuilder: PermissionSpecificationBuilder<\n  PermissionType.Endowment,\n  any,\n  LongRunningEndowmentSpecification\n> = (_builderOptions?: any) => {\n  return {\n    permissionType: PermissionType.Endowment,\n    targetKey: permissionName,\n    allowedCaveats: null,\n    endowmentGetter: (_getterOptions?: EndowmentGetterParams) => undefined,\n  };\n};\n\nexport const txInsightEndowmentBuilder = Object.freeze({\n  targetKey: permissionName,\n  specificationBuilder,\n} as const);\n"]}
+\ No newline at end of file
+diff --git a/node_modules/@metamask/controllers/dist/permissions/errors.d.ts b/node_modules/@metamask/controllers/dist/permissions/errors.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/errors.js b/node_modules/@metamask/controllers/dist/permissions/errors.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/errors.js.map b/node_modules/@metamask/controllers/dist/permissions/errors.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/index.d.ts b/node_modules/@metamask/controllers/dist/permissions/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/index.js b/node_modules/@metamask/controllers/dist/permissions/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/index.js.map b/node_modules/@metamask/controllers/dist/permissions/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/permission-middleware.d.ts b/node_modules/@metamask/controllers/dist/permissions/permission-middleware.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/permission-middleware.js b/node_modules/@metamask/controllers/dist/permissions/permission-middleware.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/permission-middleware.js.map b/node_modules/@metamask/controllers/dist/permissions/permission-middleware.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/rpc-methods/getPermissions.d.ts b/node_modules/@metamask/controllers/dist/permissions/rpc-methods/getPermissions.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/rpc-methods/getPermissions.js b/node_modules/@metamask/controllers/dist/permissions/rpc-methods/getPermissions.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/rpc-methods/getPermissions.js.map b/node_modules/@metamask/controllers/dist/permissions/rpc-methods/getPermissions.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/rpc-methods/index.d.ts b/node_modules/@metamask/controllers/dist/permissions/rpc-methods/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/rpc-methods/index.js b/node_modules/@metamask/controllers/dist/permissions/rpc-methods/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/rpc-methods/index.js.map b/node_modules/@metamask/controllers/dist/permissions/rpc-methods/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/rpc-methods/requestPermissions.d.ts b/node_modules/@metamask/controllers/dist/permissions/rpc-methods/requestPermissions.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/rpc-methods/requestPermissions.js b/node_modules/@metamask/controllers/dist/permissions/rpc-methods/requestPermissions.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/rpc-methods/requestPermissions.js.map b/node_modules/@metamask/controllers/dist/permissions/rpc-methods/requestPermissions.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/utils.d.ts b/node_modules/@metamask/controllers/dist/permissions/utils.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/utils.js b/node_modules/@metamask/controllers/dist/permissions/utils.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/permissions/utils.js.map b/node_modules/@metamask/controllers/dist/permissions/utils.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/ratelimit/RateLimitController.d.ts b/node_modules/@metamask/controllers/dist/ratelimit/RateLimitController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/ratelimit/RateLimitController.js b/node_modules/@metamask/controllers/dist/ratelimit/RateLimitController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/ratelimit/RateLimitController.js.map b/node_modules/@metamask/controllers/dist/ratelimit/RateLimitController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/subject-metadata/SubjectMetadataController.d.ts b/node_modules/@metamask/controllers/dist/subject-metadata/SubjectMetadataController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/subject-metadata/SubjectMetadataController.js b/node_modules/@metamask/controllers/dist/subject-metadata/SubjectMetadataController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/subject-metadata/SubjectMetadataController.js.map b/node_modules/@metamask/controllers/dist/subject-metadata/SubjectMetadataController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/subject-metadata/index.d.ts b/node_modules/@metamask/controllers/dist/subject-metadata/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/subject-metadata/index.js b/node_modules/@metamask/controllers/dist/subject-metadata/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/subject-metadata/index.js.map b/node_modules/@metamask/controllers/dist/subject-metadata/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/third-party/EnsController.d.ts b/node_modules/@metamask/controllers/dist/third-party/EnsController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/third-party/EnsController.js b/node_modules/@metamask/controllers/dist/third-party/EnsController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/third-party/EnsController.js.map b/node_modules/@metamask/controllers/dist/third-party/EnsController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/third-party/PhishingController.d.ts b/node_modules/@metamask/controllers/dist/third-party/PhishingController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/third-party/PhishingController.js b/node_modules/@metamask/controllers/dist/third-party/PhishingController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/third-party/PhishingController.js.map b/node_modules/@metamask/controllers/dist/third-party/PhishingController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/transaction/TransactionController.d.ts b/node_modules/@metamask/controllers/dist/transaction/TransactionController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/transaction/TransactionController.js b/node_modules/@metamask/controllers/dist/transaction/TransactionController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/transaction/TransactionController.js.map b/node_modules/@metamask/controllers/dist/transaction/TransactionController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/transaction/mocks/txsMock.d.ts b/node_modules/@metamask/controllers/dist/transaction/mocks/txsMock.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/transaction/mocks/txsMock.js b/node_modules/@metamask/controllers/dist/transaction/mocks/txsMock.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/transaction/mocks/txsMock.js.map b/node_modules/@metamask/controllers/dist/transaction/mocks/txsMock.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/user/AddressBookController.d.ts b/node_modules/@metamask/controllers/dist/user/AddressBookController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/user/AddressBookController.js b/node_modules/@metamask/controllers/dist/user/AddressBookController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/user/AddressBookController.js.map b/node_modules/@metamask/controllers/dist/user/AddressBookController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/user/PreferencesController.d.ts b/node_modules/@metamask/controllers/dist/user/PreferencesController.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/user/PreferencesController.js b/node_modules/@metamask/controllers/dist/user/PreferencesController.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/user/PreferencesController.js.map b/node_modules/@metamask/controllers/dist/user/PreferencesController.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/util.d.ts b/node_modules/@metamask/controllers/dist/util.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/util.js b/node_modules/@metamask/controllers/dist/util.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@metamask/controllers/dist/util.js.map b/node_modules/@metamask/controllers/dist/util.js.map
+old mode 100644
+new mode 100755
